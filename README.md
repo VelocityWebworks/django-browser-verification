@@ -1,5 +1,5 @@
 
-Django Browser Verification
+# Django Browser Verification
 
 Provides warning or lockout for outdated browsers
 
