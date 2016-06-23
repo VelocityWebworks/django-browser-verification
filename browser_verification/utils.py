@@ -12,6 +12,7 @@ def verify_browser(request, min_versions=None):
     """
     if not min_versions:
         min_versions = settings.MIN_BROWSER_VERSIONS
+
     request.user_agent = parse(request.META.get('HTTP_USER_AGENT', ''))
     request.browser_unknown = True
     request.browser_unsupported = False

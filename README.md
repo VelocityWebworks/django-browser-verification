@@ -10,8 +10,8 @@ install with pip `pip install django-browser-verification`
 
 Use the mixin in your views:
 
-class TestView(BrowserVerificationMixin, TemplateView):
-  ...
+    class TestView(BrowserVerificationMixin, TemplateView):
+        ...
 
 You can override `unsupported_browser` and `unknown_browser` to customize
 what you want to do with those users.
